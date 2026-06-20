@@ -30,7 +30,8 @@ config : table = {
   fmt : table = {
     log : string      -- base logging fmt          "[%day-%mon-%year %hr:%min] "
     request : string  -- added on top of the base  "%route %code" 
-  } -- all possible fmt are %day      %mon   %year     %hr       %min      %sec
+  }
+-- all possible fmt are %day      %mon   %year     %hr       %min      %sec
 --                          %level    %route %senderid %datasent %datarecv %jsonsent
 --                          %jsonrecv %code
   encrypted : bool | nil = true
