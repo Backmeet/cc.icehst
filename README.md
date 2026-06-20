@@ -1,17 +1,18 @@
 # cc.icehst
-A Computer Craft tweaked ```Lua``` mputers to report to a server were I could mange my
-create empire, and I got carried away
 
-A list of features it has 
- - Async Routes
- - Automatic registry with ```rednet.lookup```
- - Server to Client encryption with AES-CTR encryption using a 16-byte derived session key and random IV
- - Status Codes
- - Retargetable logger (can log to diffrent monitors or terms)
- - Loging formats
- - Its own ```.request(url, data, timeout=5sec)``` function
+A Computer Craft tweaked ```Lua``` lib which is a server to client encrypted data transfer lib with its own protcall, via rednet
+
+A list of features it has
+
+- Async Routes
+- Automatic registry with ```rednet.lookup```
+- Server to Client encryption with AES-CTR encryption using a 16-byte derived session key and random IV
+- Status Codes
+- Retargetable logger (can log to diffrent monitors or terms)
+- Loging formats
+- Its own ```.request(url, data, timeout=5sec)``` function
+
 **NOTE**: _It does not have get, post, delete or any other method_
-
 
 _An example of icehst being used in my survival the Advanced computer is running a server script and a Normal pocket computer is running a client script_
 <img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/a6a9e9bc-ea46-4c0a-95de-448badc54810" />
