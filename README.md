@@ -14,7 +14,7 @@ A list of features it has
 
 **NOTE**: _It does not have get, post, delete or any other method_
 
-_An example of icehst being used in my survival the Advanced computer is running a server script and a Normal pocket computer is running a client script_
+_An example of icehst being used in my survival world. The Advanced computer is running a server script and a Normal pocket computer is running a client script_
 <img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/a6a9e9bc-ea46-4c0a-95de-448badc54810" />
 
 A brief overview of its API
@@ -31,8 +31,8 @@ config : table = {
     log : string      -- base logging fmt          "[%day-%mon-%year %hr:%min] "
     request : string  -- added on top of the base  "%route %code" 
   } -- all possible fmt are %day      %mon   %year     %hr       %min      %sec
-                            %level    %route %senderid %datasent %datarecv %jsonsent
-                            %jsonrecv %code
+--                          %level    %route %senderid %datasent %datarecv %jsonsent
+--                          %jsonrecv %code
   encrypted : bool | nil = true
   modem : modem peripheral object
   size  : string | nil = side where a modem exists
