@@ -36,7 +36,7 @@ config : table = {
 --                          %jsonrecv %code
   encrypted : bool | nil = true
   modem : modem peripheral object
-  size  : string | nil = side where a modem exists
+  side  : string | nil = side where a modem exists
 }
 
 icehst.route(
